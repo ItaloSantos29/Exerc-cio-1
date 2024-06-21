@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>Exercicio Formulário</title>
+        </head>
+        <body> 
+            <form method="get">
+                <fieldset>
+                    <legend>Dados do Pasciente</legend>
+                    Nome do Pasciente:<br><input type="text" name="nome"><br><br>
+                    Regístro Hospitalar:<br><input type="text" name="registro"><br><br>
+                    Data de Inclusã:<br><input type="date" name="datainclu"><br><br>
+                    Data de Nascimento:<br><input type="date" name="datanasc"><br><br>
+                    E-mail:<br><input type="email" name="email"><br><br>
+
+                    Gênero:<br>
+                    <label>
+                        <input type="radio" name="genero" value="1" >Masculino
+                    </label>
+                    <label>
+                        <input type="radio" name="genero" value="2">Feminino<br><br>
+                    </label>
+
+                    Raça Declarada:<br>
+                    <select>
+                        <option></option>
+                        <option>Branca</option>
+                        <option>Preta</option>
+                        <option>Parda</option>
+                        <option>Indigena</option>
+                        <option>Amarela</option>
+                        <option>Desconhecida</option>
+                    </select><br><br>
+                    
+                    Como ficou sabendo do estudo?<br>
+                    <label><input type="checkbox" name="Convidado">Convidado<br></label>
+                    <label><input type="checkbox" name="Amigos">Amigos<br></label>
+                    <label><input type="checkbox" name="Internet">Internet<br></label>
+                    <label><input type="checkbox" name="Familiares">Familiares<br></label>
+                    <label><input type="checkbox" name="Outros">Outros</label><br><br>
+                    
+                    <input type="submit" value="ENVIAR">
+                </fieldset>
+
+            </form>
+        </body>
+</html>
